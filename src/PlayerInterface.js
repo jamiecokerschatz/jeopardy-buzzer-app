@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 
-const socket = io("https://jeopardy-server.onrender.com");
+const socket = io("https://jeopardy-buzzer-app.onrender.com");
 
 const PlayerInterface = () => {
   const [joined, setJoined] = useState(false);
